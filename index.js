@@ -1,7 +1,7 @@
 const packageInfo = require('./package.json');
 console.log(`Greetings! Running version ${packageInfo.version} of the app ${packageInfo.name}`);
 
-function ReversePolishNotation(input) {
+function ReversePolishNotationFunction(input) {
     const tokens = input.split(" ");
     const stack = [];
 
@@ -26,6 +26,9 @@ function ReversePolishNotation(input) {
                 case '/':
                     stack.push(a / b);
                     break;
+                case '^':
+                    stack.push(a ** b);
+                    break;
                 default:
                     throw new Error(`Unknown operator: ${token}`);
             }
@@ -34,4 +37,4 @@ function ReversePolishNotation(input) {
 
     return stack.pop();
 }
-module.exports = ReversePolishNotation;
+module.exports = { ReversePolishNotationFunction };

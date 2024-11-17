@@ -1,6 +1,6 @@
 {
   "name": "@avto_nariashvili/reverse_polish_notation",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "package for calculating with reverse polish notation",
   "main": "index.js",
   "scripts": {
