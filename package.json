@@ -1,0 +1,15 @@
+{
+  "name": "reverse_polish_notation",
+  "version": "1.0.0",
+  "description": "package for calculating with reverse polish notation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AvtoTheThird/node_1_pack"
+  },
+  "author": "avto nariashvili",
+  "license": "ISC"
+}
